@@ -1,0 +1,26 @@
+{
+  "name": "Web3-Dev-Network",
+  "version": "1.0.0",
+  "description": "collection of web-3 development resources",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css",
+    "build": "postcss css/main.css -o public/build/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dboudro/Web3-Dev-Network.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dboudro/Web3-Dev-Network/issues"
+  },
+  "homepage": "https://github.com/dboudro/Web3-Dev-Network#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.7.6"
+  }
+}
